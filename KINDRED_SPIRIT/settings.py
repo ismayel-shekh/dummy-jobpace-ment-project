@@ -29,6 +29,8 @@ SECRET_KEY = 'django-insecure-ua!g34!bhdu6n^(09*_r!^kez%+g#$t!w=wg$5cc&cbg4q81dg
 DEBUG = True
 CORS_ALLOW_ALL_ORIGINS = True
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://dummy-jobpace-ment-project.onrender.com','https://*.127.0.0.1']
+
 
 
 # Application definition
